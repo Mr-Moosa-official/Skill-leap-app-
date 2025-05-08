@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { AudioIconButton } from '@/components/common/audio-icon-button';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
+import { Button } from '@/components/ui/button'; // Added import
 
 export default function AuthPage() {
   return (
